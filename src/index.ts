@@ -40,6 +40,6 @@ const calculatedControlDigit = (10 - (sum % 10)) %10;
 }
 
 // Example usage:
-const personNumber = "9411160866"; // Replace with an actual person number
+const personNumber = "YYMMDDXXXX"; // Replace with an actual person number
 const isValid = isValidPersonNumber(personNumber);
 console.log("Is valid:", isValid);
